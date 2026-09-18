@@ -1,0 +1,8 @@
+# Do not upload project configuration and source files as public static assets.
+wrangler.toml
+schema.sql
+worker.js
+package.json
+.gitignore
+.assetsignore
+README.md
