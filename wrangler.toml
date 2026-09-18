@@ -1,4 +1,4 @@
-name = "todo-app"
+name = "pickday"
 main = "worker.js"
 compatibility_date = "2026-09-18"
 
@@ -9,6 +9,6 @@ run_worker_first = ["/api/*"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "todo-app-db"
+database_name = "pickday-db"
 database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 migrations_dir = "migrations"
