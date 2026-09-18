@@ -1,0 +1,12 @@
+name = "todo-app"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "todo-app-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
